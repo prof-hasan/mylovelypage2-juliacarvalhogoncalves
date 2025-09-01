@@ -149,8 +149,15 @@ dt {
     display: flex;
     align-items: center;
 }
-.contem{
-    display: flex; 
-    justify-content: center; 
-    gap: 10px; 
+.contem {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    background-color: rgb(218,218,220);
+    border: none;
+    margin-bottom: 25px;
+}
+#cc {
+    width: 80%;
+    margin-top: 3px;
 }
