@@ -1,10 +1,11 @@
 body {
+    margin: 0%;
     background-color: rgb(218,218,220);
     text-align: justify;
     font-size:large;
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
     font-variation-settings:
     "SOFT" 0,
@@ -23,11 +24,10 @@ main {
 nav {
     background-color: rgb(248, 250, 120);
     border-radius: 10px;
-    border: 2px solid black;
     padding: 2px;
     padding-left: 30px;
     padding-bottom: 5px;
-    width: 200px;
+    width: 250px;
     right: 86%;
     position: fixed;
 }
@@ -39,6 +39,10 @@ section {
     padding-right: 20px;
 }
 
+section a {
+    color: brown;
+}
+
 article {
     background-color: rgba(0, 0, 0, 0.753);
     color: white;
@@ -48,7 +52,7 @@ article {
     padding-left: 10px;
     padding-right: 20px;
     padding-bottom: 5px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 footer {
@@ -74,7 +78,7 @@ h2 {
     padding: 5px;
     font-family: "Vollkorn", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -88,7 +92,7 @@ a:hover {
 }
 
 #este {
-    color: red;
+    color: brown;
 }
 
 #este:hover {
@@ -98,7 +102,7 @@ a:hover {
 #titulomascote {
     color: rgb(252,255,47);
     background-color: rgba(0, 0, 0, 0.753);
-    width: 100px;
+    width: 110px;
 }
 
 #galodoido {
@@ -109,8 +113,8 @@ a:hover {
 #tituloeastereggs {
     color: rgb(252,255,47);
     background-color: rgba(0, 0, 0, 0.753);
-    width: 240px;
-    margin-bottom: 40px;
+    width: 265px;
+    margin-bottom: 25px;
 }
 
 dt {
@@ -122,7 +126,7 @@ dt {
 #titulogaleriadefotos {
     color: rgb(252,255,47);
     background-color: rgba(0, 0, 0, 0.753);
-    width: 200px;
+    width: 215px;
 }
 
 .contem {
@@ -164,13 +168,14 @@ dt {
 
 .orig_do_hino {
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 400px;
+    margin-right: 0%;
 }
 
 #titulohino {
     color: rgb(252,255,47);
     background-color: rgba(0, 0, 0, 0.753);
-    width: 220px;
+    width: 232px;
 }
 
 #par_pri_hino {
@@ -179,6 +184,15 @@ dt {
 
 #video {
     margin-top: 30px;
+}
+
+#sobre {
+    background-color:rgba(0, 0, 0, 0.753);
+    color: white;
+}
+
+#sobre nav {
+    color: black;
 }
 
 .flexx {
@@ -191,6 +205,10 @@ dt {
 
 #pri {
     margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
 }
 
 #tituloautora {
@@ -203,28 +221,30 @@ dt {
     border: 1px solid black;
     border-radius: 5%;
     background-color: rgb(248, 250, 120);
+    color: black;
 }
 
 #titulocredit {
     color: rgb(252,255,47);
     background-color: rgba(0, 0, 0, 0.753);
-    width: 105px;
+    width: 110px;
 }
 
 #ter {
     margin-top: 4%;
     margin-bottom: 3%;
-    margin-left: 15%;
+    margin-left: 25%;
     margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+    width: 1000px;
 }
 
 #biohazard {
     color: rgb(252,255,47);
-    background-color: rgba(0, 0, 0, 0.753);
-    width: 220px;
-}
-
-#imghz {
-    width: 1300px;
+    background-color: rgba(77, 74, 74, 0.753);
+    width: 190px;
 }
   
