@@ -1,0 +1,250 @@
+body {
+    margin: 0%;
+    background-color: rgb(218,218,220);
+    text-align: justify;
+    font-size:large;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+main {
+    margin-left: 7.5%;
+    margin-right: 20px;
+    padding-left: 12px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+nav {
+    background-color: rgb(248, 250, 120);
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    width: 250px;
+    right: 86%;
+    position: fixed;
+}
+
+section {
+    margin-left: 15%;
+    margin-right: 20px;
+    padding-left: 12px;
+    padding-right: 20px;
+}
+
+section a {
+    color: brown;
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+footer {
+    margin-left: 15%;
+    margin-right: 20px;
+    padding-left: 12px;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(252,255,47);
+    text-decoration:underline;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    padding: 5px;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#este {
+    color: brown;
+}
+
+#este:hover {
+    text-decoration: none;
+}
+
+#titulomascote {
+    color: rgb(252,255,47);
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 110px;
+}
+
+#galodoido {
+    height: fit-content;
+    width: fit-content;
+}
+
+#tituloeastereggs {
+    color: rgb(252,255,47);
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 265px;
+    margin-bottom: 25px;
+}
+
+dt {
+    color: rgb(248, 250, 120);
+    text-decoration: underline;
+    padding: 7px;
+}
+
+#titulogaleriadefotos {
+    color: rgb(252,255,47);
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 215px;
+}
+
+.contem {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(218,218,220);
+    border: none;
+    margin-bottom: 25px;
+    gap: 3rem;
+}
+
+.div_leg {
+    flex: 1 1 0%;
+    position: relative;
+}
+
+#teste {
+    width: 713px;
+}
+
+.div_leg img {
+    height: 100%;
+    width: fit-content;
+}
+
+.div_leg p {
+    color: rgb(65, 65, 65);
+    transition: all 400ms ease;
+    background-color: rgba(255, 255, 255, 0.836);
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    padding: 50px;
+}
+
+.div_leg:hover p {
+    opacity: 1;
+}
+
+.orig_do_hino {
+    margin-top: 40px;
+    margin-left: 400px;
+    margin-right: 0%;
+}
+
+#titulohino {
+    color: rgb(252,255,47);
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 232px;
+}
+
+#par_pri_hino {
+    width: 1014px;
+}
+
+#video {
+    margin-top: 30px;
+}
+
+#sobre {
+    background-color:rgba(0, 0, 0, 0.753);
+    color: white;
+}
+
+#sobre nav {
+    color: black;
+}
+
+.flexx {
+    margin-left: 10%;
+    margin-top: 80px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+}
+
+#pri {
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+}
+
+#tituloautora {
+    color: rgb(252,255,47);
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 290px;
+}
+
+#seg {
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: rgb(248, 250, 120);
+    color: black;
+}
+
+#titulocredit {
+    color: rgb(252,255,47);
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 110px;
+}
+
+#ter {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+    width: 1000px;
+}
+
+#biohazard {
+    color: rgb(252,255,47);
+    background-color: rgba(77, 74, 74, 0.753);
+    width: 190px;
+}
+  
